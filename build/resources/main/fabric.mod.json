@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "mobparticles",
+  "version": "1.1",
+  "name": "Mob Particles",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/leman/mobparticles"
+  },
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "org.example.mobparticles.mobparticles.client.MobParticlesClient"
+    ]
+  },
+  "mixins": [
+    "mobparticles.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "fabric": "*",
+    "minecraft": "1.20.4"
+  }
+}
